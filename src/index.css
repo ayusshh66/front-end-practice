@@ -1,0 +1,33 @@
+@import "tailwindcss";
+<<<<<<< HEAD
+=======
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+
+.dark{
+  --background: var(--color-red-500);
+  --foreground : var(--color-black);
+
+}
+
+
+
+
+
+@theme {
+  --animate-dudu : dudu 10s linear infinite;
+
+  
+}
+@keyframes dudu {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+>>>>>>> 5d42b07a4a0b05f6d90b0d96e92fa31fe35b6439
