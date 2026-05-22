@@ -13,16 +13,16 @@ function Content() {
 
 
             <motion.button 
-            onClick={() => setPull((prev) => !prev)}
-            whileHover={{
-                rotateX : 20,
-                rotateY :20,
-            }}
+            // onClick={() => setPull((prev) => !prev)}
+            // whileHover={{
+            //     rotateX : 20,
+            //     rotateY :20,
+            // }}
             
 
 
 
-            className='bg-neutral-600 w-30 h-15 rounded-xl text-2xl text-white cursor-pointer group active:scale-95  '>
+            className='bg-neutral-600 w-30 h-15 rounded-xl text-2xl text-white cursor-pointer group active:scale-95   '>
                 Button  
             </motion.button>
 
